@@ -1,0 +1,11 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity correction is
+	port(	x     : in std_logic_vector(14 downto 0);
+			f     : in std_logic_vector(10 downto 0);
+			final : out std_logic_vector(10 downto 0));
+end correction;
+
+architecture Shell of correction is
+	begin s_e, 

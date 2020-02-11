@@ -1,0 +1,166 @@
+$comment
+	File created using the following command:
+		vcd file decoder.msim.vcd -direction
+$end
+$date
+	Thu Nov 29 23:06:45 2018
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module final_vlg_vec_tst $end
+$var reg 15 ! x [14:0] $end
+$var wire 1 " final [10] $end
+$var wire 1 # final [9] $end
+$var wire 1 $ final [8] $end
+$var wire 1 % final [7] $end
+$var wire 1 & final [6] $end
+$var wire 1 ' final [5] $end
+$var wire 1 ( final [4] $end
+$var wire 1 ) final [3] $end
+$var wire 1 * final [2] $end
+$var wire 1 + final [1] $end
+$var wire 1 , final [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 final[0]~output_o $end
+$var wire 1 4 final[1]~output_o $end
+$var wire 1 5 final[2]~output_o $end
+$var wire 1 6 final[3]~output_o $end
+$var wire 1 7 final[4]~output_o $end
+$var wire 1 8 final[5]~output_o $end
+$var wire 1 9 final[6]~output_o $end
+$var wire 1 : final[7]~output_o $end
+$var wire 1 ; final[8]~output_o $end
+$var wire 1 < final[9]~output_o $end
+$var wire 1 = final[10]~output_o $end
+$var wire 1 > x[11]~input_o $end
+$var wire 1 ? x[4]~input_o $end
+$var wire 1 @ x[5]~input_o $end
+$var wire 1 A x[6]~input_o $end
+$var wire 1 B decoder|xor12x34|dataOut~0_combout $end
+$var wire 1 C x[1]~input_o $end
+$var wire 1 D x[3]~input_o $end
+$var wire 1 E x[0]~input_o $end
+$var wire 1 F x[2]~input_o $end
+$var wire 1 G decoder|xor1x2|dataOut~0_combout $end
+$var wire 1 H x[12]~input_o $end
+$var wire 1 I x[7]~input_o $end
+$var wire 1 J x[8]~input_o $end
+$var wire 1 K decoder|xor5|dataOut~combout $end
+$var wire 1 L x[9]~input_o $end
+$var wire 1 M decoder|xor12x56|dataOut~0_combout $end
+$var wire 1 N verif|and0x7|dataOut~2_combout $end
+$var wire 1 O decoder|xor13x57|dataOut~0_combout $end
+$var wire 1 P x[10]~input_o $end
+$var wire 1 Q x[13]~input_o $end
+$var wire 1 R decoder|xor13x57|dataOut~combout $end
+$var wire 1 S x[14]~input_o $end
+$var wire 1 T decoder|xor89x1011|dataOut~1_combout $end
+$var wire 1 U decoder|xor89x1011|dataOut~0_combout $end
+$var wire 1 V verif|and3x4|dataOut~2_combout $end
+$var wire 1 W mens|xor0|dataOut~combout $end
+$var wire 1 X verif|and0x6|dataOut~2_combout $end
+$var wire 1 Y mens|xor1|dataOut~combout $end
+$var wire 1 Z verif|and0x5|dataOut~2_combout $end
+$var wire 1 [ mens|xor2|dataOut~combout $end
+$var wire 1 \ decoder|xor89x1011|dataOut~combout $end
+$var wire 1 ] mens|xor3|dataOut~combout $end
+$var wire 1 ^ verif|and1x4|dataOut~2_combout $end
+$var wire 1 _ mens|xor4|dataOut~combout $end
+$var wire 1 ` mens|xor5|dataOut~combout $end
+$var wire 1 a mens|xor6|dataOut~combout $end
+$var wire 1 b verif|and2x4|dataOut~2_combout $end
+$var wire 1 c mens|xor7|dataOut~combout $end
+$var wire 1 d mens|xor8|dataOut~combout $end
+$var wire 1 e mens|xor9|dataOut~combout $end
+$var wire 1 f decoder|xor12x34|dataOut~1_combout $end
+$var wire 1 g mens|xor10|dataOut~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11011010111111 !
+1,
+1+
+1*
+1)
+1(
+0'
+0&
+1%
+0$
+1#
+1"
+0-
+1.
+x/
+10
+11
+12
+13
+14
+15
+16
+17
+08
+09
+1:
+0;
+1<
+1=
+0>
+1?
+1@
+0A
+0B
+1C
+1D
+1E
+1F
+0G
+1H
+1I
+0J
+1K
+1L
+1M
+0N
+0O
+1P
+1Q
+1R
+0S
+1T
+1U
+0V
+1W
+1X
+1Y
+0Z
+1[
+0\
+1]
+1^
+1_
+0`
+0a
+0b
+1c
+0d
+1e
+0f
+1g
+$end
+#1000000

@@ -1,0 +1,25 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY factorMem IS
+  PORT (add			 :in STD_LOGIC_VECTOR (2 DOWNTO 0);
+        nSet,valid :out std_logic);
+END contMem;
+
+ARCHITECTURE behavior OF factorMem IS
+BEGIN
+  PROCESS (add)
+    TYPE CMem IS ARRAY(0 TO 7) OF STD_LOGIC_VECTOR (9 DOWNTO 0);
+	 VARIABLE prog: CMem := ("1111111110", -- nRst = 1   done=0   00
+                            "0000111110", -- nRst = 1   done=0   01
+                            "0011001110", -- nRst = 1   done=0   02
+                            "0101010110", -- nRst = 1   done=0   03
+                            "0000000011", -- nRst = 1   done=0   04
+                            "0000000000", -- nRst = 0   done=1   05
+                            "0000000010", -- Dont care
+									 "0000000010"); -- Dont care
+									 
+									 
+end factorMem;

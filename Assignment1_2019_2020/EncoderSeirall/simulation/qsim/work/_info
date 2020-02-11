@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lukas/Desktop/EncoderSeirall/simulation/qsim
+Ebincounter_3bit
+Z1 w1574025984
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z11 8EncoderSeriall.vho
+Z12 FEncoderSeriall.vho
+l0
+L38
+V3FA>INQWD1d<zN]=40D4a1
+!s100 56CZm6@A`jk_hfOJ768kO3
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1574025985
+!i10b 1
+Z15 !s108 1574025985.000000
+Z16 !s90 -work|work|EncoderSeriall.vho|
+Z17 !s107 EncoderSeriall.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 15 bincounter_3bit 0 22 3FA>INQWD1d<zN]=40D4a1
+l74
+L46
+VGV<FdaCD^>_2cRG`6U=R40
+!s100 [?_5JY=ElQ0J3OC3kQ4g52
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Ebincounter_3bit_vhd_vec_tst
+Z20 w1574025983
+R8
+R9
+R0
+Z21 8Waveform1.vwf.vht
+Z22 FWaveform1.vwf.vht
+l0
+L31
+VhQP0Aa`;]YWk_KKRbg_cf1
+!s100 i]hz?NQDR4LP]lYh0QXaC3
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform1.vwf.vht|
+Z24 !s107 Waveform1.vwf.vht|
+!i113 1
+R18
+R19
+Abincounter_3bit_arch
+R8
+R9
+DEx4 work 27 bincounter_3bit_vhd_vec_tst 0 22 hQP0Aa`;]YWk_KKRbg_cf1
+l46
+L33
+V57UUe@2FFDM_OlLm4id^01
+!s100 H6Pj21P=[J7=BHezD9^]:3
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19
+Eencoderseriall
+Z25 w1574435472
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+Z26 dC:/Users/lenin/Google Drive/UA/4ano/ACA/Pratica/Assignment1/EncoderSeirall/simulation/qsim
+R11
+R12
+l0
+L38
+VVmKe=HHO<9Y1`[XM6:JeF3
+!s100 eQOIhYSFXf_C5CW=EiSRW3
+R13
+32
+Z27 !s110 1574435473
+!i10b 1
+Z28 !s108 1574435473.000000
+R16
+R17
+!i113 1
+R18
+R19
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 14 encoderseriall 0 22 VmKe=HHO<9Y1`[XM6:JeF3
+l159
+L63
+Vmll:oVc7Tg`[WJ4mCgNlo3
+!s100 iK7cU2h?BH98O`P[z=^132
+R13
+32
+R27
+!i10b 1
+R28
+R16
+R17
+!i113 1
+R18
+R19
+Eencoderseriall_vhd_vec_tst
+Z29 w1574435470
+R8
+R9
+R26
+Z30 8Encoder.vwf.vht
+Z31 FEncoder.vwf.vht
+l0
+L31
+VfY@OlzVLSOXhboAQF^i`50
+!s100 eIM`n7Po;:YFif6jMbG?V1
+R13
+32
+R27
+!i10b 1
+R28
+Z32 !s90 -work|work|Encoder.vwf.vht|
+Z33 !s107 Encoder.vwf.vht|
+!i113 1
+R18
+R19
+Aencoderseriall_arch
+R8
+R9
+Z34 DEx4 work 26 encoderseriall_vhd_vec_tst 0 22 fY@OlzVLSOXhboAQF^i`50
+l50
+L33
+Vn<_n9o<4Qcgd[[l1LoLff1
+!s100 Ze?4^0VTm>e]f]0fdo_4l1
+R13
+32
+R27
+!i10b 1
+R28
+R32
+R33
+!i113 1
+R18
+R19

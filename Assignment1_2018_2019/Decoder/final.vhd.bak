@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity final is
+	port(x     : in std_logic_vector(14 downto 0);
+		  final : out std_logic_vector(10 downto 0));
+end final;
+
+architecture Shell of final
+	signal s_m : in std_logic_vector(3 downto 0);
+	signal s_erro : in std_logic_vector(10 downto 0);
+	begin
+	
+		decoder: entity work.decoder(Structural)
+						port map(x => x,
+									e => s_m);
+								
+	
+		verif: entity work.verification(Structural)
+					port map(e => s_m,
+								f => s_erro);
+								
+		verif: entity work.correction(Structural)
+					port map(x     => x(10 downto 0)
+								f     => s_erro
+								final => final);
+								
+end Shell;
+								

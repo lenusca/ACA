@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lenin/Desktop/assignment1/Decoder/simulation/qsim
+vdecoder
+!s110 1543448692
+!i10b 1
+!s100 :z6i6XJ5O5_;Mc4n_mP3g2
+InSNVF9H>R0]N6=Oe<Nh[;0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1543448690
+Z2 8decoder.vo
+Z3 Fdecoder.vo
+Z4 L0 32
+Z5 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z6 !s108 1543448692.000000
+Z7 !s107 decoder.vo|
+Z8 !s90 -work|work|decoder.vo|
+!i113 1
+Z9 o-work work
+vdecoder_vlg_vec_tst
+!s110 1543448693
+!i10b 1
+!s100 h7:4zUiZMLzna:139jY^T2
+I^[fKiPW0WVD@7;JaNDWFA2
+R1
+R0
+w1543448681
+Z10 8decoder.vwf.vt
+Z11 Fdecoder.vwf.vt
+Z12 L0 30
+R5
+r1
+!s85 0
+31
+R6
+!s107 decoder.vwf.vt|
+Z13 !s90 -work|work|decoder.vwf.vt|
+!i113 1
+R9
+vfinal
+!s110 1543532803
+!i10b 1
+!s100 YU^4Q5K8;LTmKmNnG`AIn2
+IW7:W8_3hKOBaWQRcL?Ja93
+R1
+R0
+w1543532801
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1543532803.000000
+R7
+R8
+!i113 1
+R9
+vfinal_vlg_vec_tst
+!s110 1543532804
+!i10b 1
+!s100 e0YlzV_[E9DUDa=dP[4kS0
+I_8<V[gb31<R9SJ==bjZ^R1
+R1
+R0
+w1543532790
+R10
+R11
+R12
+R5
+r1
+!s85 0
+31
+R14
+!s107 decoder.vwf.vt|
+R13
+!i113 1
+R9
+vverification
+Z15 !s110 1543185627
+!i10b 1
+!s100 MQT`1Hnbnodl2HVZ5C7g10
+II@cYchzezi=3<=PY=C]8N3
+R1
+R0
+w1543185624
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1543185627.000000
+R7
+R8
+!i113 1
+R9
+vverification_vlg_vec_tst
+R15
+!i10b 1
+!s100 EGQXoh1:VI[iJ08bLLR;d1
+I4?]C1aS_iXeoX?<UjPW9O1
+R1
+R0
+w1543185610
+8part2.vwf.vt
+Fpart2.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R16
+!s107 part2.vwf.vt|
+!s90 -work|work|part2.vwf.vt|
+!i113 1
+R9

@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+library storage;
+use storage.all;
+library ROM;
+use ROM.all;
+library simpleLogic;
+use simpleLogic.all;
+library storeDev;
+use storeDev.all;
+
+
+entity EncoderSeriall is
+	port(CLK_50  : in std_logic;
+		  message : in std_logic_vector(3 downto 0);
+		  dataOut : out std_logic);
+end EncoderSeriall;
+
+architecture Structural of Encoder is
